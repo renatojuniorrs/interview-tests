@@ -66,7 +66,7 @@ func (s *Server) getReversedFamilyBuggy() []*FamilyMember {
 	for _, member := range s.Members {
 		temp.ID = member.ID
 		temp.Name = reverse(member.Name)
-		reversed = append(reversed, &temp) // BUG: reuses same pointer
+		reversed = append(reversed, &temp)
 	}
 
 	return reversed
