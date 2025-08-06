@@ -60,6 +60,9 @@ def zenit_polar_cipher(text: str) -> str:
 You may use the following code to test your solution:
 
 ```python
+# Create a new notebook in Google Colab https://colab.research.google.com/
+# This must be your first block
+
 def test_zenit_polar_cipher():
     test_cases = [
         ("Zenit", "Polar"),
