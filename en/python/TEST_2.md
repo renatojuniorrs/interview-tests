@@ -16,7 +16,7 @@ This means:
 * I ⇄ A
 * T ⇄ R
 
-Applying the cipher **twice** returns the original text. This simple cipher is not suitable for real encryption, but it’s a great exercise for programming interviews.
+Applying the cipher **twice** returns the original text. This simple cipher is not suitable for real encryption, but it’s a great exercise.
 
 ## 📝 Task
 
