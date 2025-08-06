@@ -18,8 +18,6 @@ This means:
 
 Applying the cipher **twice** returns the original text. This simple cipher is not suitable for real encryption, but it’s a great exercise for programming interviews.
 
----
-
 ## 📝 Task
 
 Write a **Python function** that applies the ZENIT–POLAR cipher to a given string.
@@ -31,7 +29,6 @@ Write a **Python function** that applies the ZENIT–POLAR cipher to a given str
 3. Leave characters that are **not part of the mapping** (spaces, punctuation, digits, etc.) **unchanged**.
 4. The function must work for both **encoding and decoding** (i.e., symmetric behavior).
 
----
 
 ## 📚 Examples
 
@@ -44,24 +41,22 @@ Write a **Python function** that applies the ZENIT–POLAR cipher to a given str
 | `"Zebra in the Zoo"`     | `"Pobti al rho Pee"`      |
 | `"Nothing to Translate"` | `"Lerhalg re Rtilsniro"` |
 
----
 
 ## 🧑‍💻 Function Signature
 
 ```python
+# Create a new notebook in Google Colab https://colab.research.google.com/
+# This must be your first code block
 def zenit_polar_cipher(text: str) -> str:
     pass
 ```
-
----
 
 ## 🧪 Example Test Cases
 
 You may use the following code to test your solution:
 
 ```python
-# Create a new notebook in Google Colab https://colab.research.google.com/
-# This must be your first block
+# This can be your second block
 
 def test_zenit_polar_cipher():
     test_cases = [
