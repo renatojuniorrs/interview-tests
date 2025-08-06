@@ -29,17 +29,14 @@ Implement a Go function that performs the **ZENIT–POLAR cipher** transformatio
 
 ## 📚 Examples
 
-### Input → Output
-
 | Input                    | Output                    |
 | ------------------------ | ------------------------- |
 | `"Zenit"`                | `"Polar"`                 |
 | `"Polar"`                | `"Zenit"`                 |
 | `"ZENIT POLAR"`          | `"POLAR ZENIT"`           |
-| `"International"`        | `"Atroloaoizaoapl"`       |
-| `"Go is Great!"`         | `"Go as Gtora!"`          |
-| `"Zebra in the Zoo"`     | `"Pobro an rho Pee"`      |
-| `"Nothing to Translate"` | `"Lothalg ror Troansrao"` |
+| `"International"`        | `"Alrotliraelin"`       |
+| `"Zebra in the Zoo"`     | `"Pobti al rho Pee"`      |
+| `"Nothing to Translate"` | `"Lerhalg re Rtilsniro"` |
 
 ---
 
@@ -82,12 +79,12 @@ func TestZenitPolarCipher(t *testing.T) {
 		input    string
 		expected string
 	}{
-		{"Zenit", "Polar"},
-		{"Polar", "Zenit"},
-		{"ZENIT POLAR", "POLAR ZENIT"},
-		{"International", "Atroloaoizaoapl"},
-		{"Zebra in the Zoo", "Pobro an rho Pee"},
-		{"Go is Great!", "Go as Gtora!"},
+        {"Zenit", "Polar"},
+        {"Polar", "Zenit"},
+        {"ZENIT POLAR", "POLAR ZENIT"},
+        {"International", "Alrotliraelin"},
+        {"Zebra in the Zoo", "Pobti al rho Pee"},
+        {"Nothing to Translate", "Lerhalg re Rtilsniro"},
 	}
 
 	for _, tt := range tests {
